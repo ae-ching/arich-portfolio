@@ -1,68 +1,35 @@
 import React from 'react'
 
-const skillGroups = [
+const groups = [
   {
     title: 'Systems Analysis & Design',
-    icon: '🔍',
-    skills: [
-      'Requirements Gathering',
-      'Systems Analysis',
-      'Business Process Analysis',
-      'System Design',
-      'SDLC',
-      'Technical Documentation',
-    ],
+    icon: '◈',
+    skills: ['Requirements Gathering', 'Systems Analysis', 'Business Process Analysis', 'System Design', 'SDLC', 'Technical Documentation'],
+    span: 'normal',
   },
   {
     title: 'UI/UX & Process Modeling',
-    icon: '🎨',
-    skills: [
-      'UI/UX Prototyping',
-      'Wireframing',
-      'BPMN',
-      'Flowcharts',
-      'ERD',
-      'Use Case Diagrams',
-    ],
+    icon: '◎',
+    skills: ['UI/UX Prototyping', 'Wireframing', 'BPMN', 'Flowcharts', 'ERD', 'Use Case Diagrams'],
+    span: 'normal',
   },
   {
     title: 'Programming',
-    icon: '💻',
-    skills: [
-      'Python',
-      'Java',
-      'JavaScript',
-      'HTML',
-      'CSS',
-      'SQL',
-    ],
+    icon: '◉',
+    skills: ['Python', 'Java', 'JavaScript', 'HTML', 'CSS', 'SQL'],
+    span: 'normal',
   },
   {
     title: 'Frameworks, APIs & Databases',
-    icon: '🛠️',
-    skills: [
-      'Django',
-      'React',
-      'Bootstrap',
-      'Node.js',
-      'Firebase',
-      'REST API',
-      'MySQL',
-      'SQLite',
-      'PostgreSQL',
-    ],
+    icon: '◐',
+    skills: ['Django', 'React', 'Bootstrap', 'Node.js', 'Firebase', 'REST API', 'MySQL', 'SQLite', 'PostgreSQL'],
+    span: 'normal',
   },
   {
     title: 'Tools',
-    icon: '🧰',
-    skills: [
-      'Git / GitHub',
-      'Visual Studio Code',
-      'NetBeans',
-      'Figma',
-      'Microsoft Office',
-      'Google Workspace',
-    ],
+    icon: '◑',
+    skills: ['Git / GitHub', 'VS Code', 'NetBeans', 'Figma', 'Microsoft Office', 'Google Workspace'],
+    span: 'wide',
   },
 ]
 
@@ -70,28 +37,26 @@ function Skills() {
   return (
     <section id="skills" className="skills-section">
       <div className="container">
-        <span className="section-label">Skills</span>
-        <h2 className="section-title">My Skills & Expertise</h2>
-        <p className="section-subtitle">
-          A blend of technical development capabilities and systems-oriented
-          analytical skills built through academic and project experience.
-        </p>
-
-        <div className="skills-grid">
-          {skillGroups.map((group, i) => (
-            <div key={i} className="skill-card">
-              <div className="skill-card-header">
-                <span className="skill-icon">{group.icon}</span>
-                <h3 className="skill-card-title">{group.title}</h3>
+        <div className="skills-header">
+          <span className="section-label">Skills</span>
+          <h2 className="section-title">Tools & expertise</h2>
+          <p className="section-subtitle">
+            A balanced toolkit spanning development, design, and systems thinking —
+            built through coursework, projects, and self-driven learning.
+          </p>
+        </div>
+        <div className="skills-bento">
+          {groups.map((g, i) => (
+            <div key={i} className={`skill-tile ${g.span}`}>
+              <div className="skill-tile-header">
+                <span className="skill-tile-icon">{g.icon}</span>
+                <h3>{g.title}</h3>
               </div>
-              <ul className="skill-list">
-                {group.skills.map((skill, j) => (
-                  <li key={j} className="skill-item">
-                    <span className="skill-dot" />
-                    {skill}
-                  </li>
+              <div className="skill-tile-tags">
+                {g.skills.map((s, j) => (
+                  <span key={j} className="skill-tag">{s}</span>
                 ))}
-              </ul>
+              </div>
             </div>
           ))}
         </div>

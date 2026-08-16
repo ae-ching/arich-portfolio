@@ -47,7 +47,7 @@ function Sidebar({ activeSection, scrollTo, mobileMenuOpen, setMobileMenuOpen })
           {/* Resume CTA */}
           <div className="sidebar-resume">
             <a
-              href="/assets/resume.pdf"
+              href="/assets/Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="resume-btn"
