@@ -1,0 +1,90 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="74" y1="48" x2="1120" y2="594" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1F1B"/>
+      <stop offset="1" stop-color="#122D28"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="160" y1="180" x2="730" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7AE7C3"/>
+      <stop offset="1" stop-color="#C9FCEB"/>
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#153D36"/>
+      <stop offset="1" stop-color="#112C2A"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" rx="28" fill="url(#bgGradient)"/>
+
+  <circle cx="1040" cy="110" r="210" fill="#1F4F46" opacity="0.3"/>
+  <circle cx="1040" cy="110" r="130" fill="#7AE7C3" opacity="0.08" filter="url(#softGlow)"/>
+  <circle cx="170" cy="530" r="180" fill="#1A4A42" opacity="0.24"/>
+
+  <g opacity="0.45">
+    <path d="M92 452C177 392 223 374 303 365C389 356 483 370 552 335" stroke="#5E837B" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M738 184C798 152 864 128 939 118C1010 109 1066 112 1110 132" stroke="#5E837B" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="650" y="110" width="420" height="310" rx="28" fill="url(#cardGradient)" stroke="#325F57"/>
+    <rect x="676" y="140" width="366" height="214" rx="20" fill="#0C201D" stroke="#294B48"/>
+
+    <rect x="700" y="162" width="120" height="18" rx="9" fill="#1F534D"/>
+    <rect x="700" y="194" width="84" height="10" rx="5" fill="#295F58"/>
+    <rect x="700" y="214" width="150" height="10" rx="5" fill="#295F58"/>
+
+    <rect x="700" y="250" width="134" height="78" rx="16" fill="#142E2B" stroke="#2E615E"/>
+    <rect x="850" y="250" width="150" height="78" rx="16" fill="#0F2522" stroke="#2E615E"/>
+
+    <path d="M730 288L760 266L788 294L814 268L838 288" stroke="#7AE7C3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="864" y="266" width="80" height="14" rx="7" fill="#1E534D"/>
+    <rect x="864" y="290" width="100" height="14" rx="7" fill="#295F58"/>
+    <rect x="864" y="314" width="66" height="14" rx="7" fill="#295F58"/>
+
+    <rect x="690" y="368" width="110" height="26" rx="13" fill="#0F2522" stroke="#2B5A55"/>
+    <rect x="812" y="368" width="144" height="26" rx="13" fill="#0F2522" stroke="#2B5A55"/>
+    <rect x="968" y="368" width="48" height="26" rx="13" fill="#0F2522" stroke="#2B5A55"/>
+  </g>
+
+  <g>
+    <rect x="705" y="442" width="200" height="112" rx="20" fill="#112D2A" stroke="#2D554F"/>
+    <circle cx="748" cy="490" r="18" fill="#7AE7C3" opacity="0.22"/>
+    <circle cx="748" cy="490" r="9" fill="#7AE7C3"/>
+    <path d="M774 507L827 464" stroke="#7AE7C3" stroke-width="6" stroke-linecap="round"/>
+    <path d="M824 463H856" stroke="#7AE7C3" stroke-width="6" stroke-linecap="round"/>
+    <path d="M856 463V494" stroke="#7AE7C3" stroke-width="6" stroke-linecap="round"/>
+    <path d="M768 511H865" stroke="#395E58" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="80" y="70" width="52" height="52" rx="16" fill="url(#accentGradient)"/>
+    <path d="M95 89H111.5C120.5 89 128 95.8 128 104.4C128 113.1 120.7 119.8 111.7 119.8H101.8V108.8H110.2C114.3 108.8 117.7 105.7 117.7 101.9C117.7 98.1 114.3 95 110.2 95H95V89ZM101.8 113.7H110.7C117.2 113.7 121.8 118.5 121.8 124.9C121.8 131.2 117.2 136.1 110.7 136.1H95V129.5H110.7C113.7 129.5 116.2 127.1 116.2 124.2C116.2 121.1 113.7 118.7 110.7 118.7H101.8V113.7Z" fill="#0E1F1B"/>
+  </g>
+
+  <g>
+    <text x="80" y="214" fill="#EAFBF5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="50" font-weight="700" letter-spacing="-2.2">Arich Dalle</text>
+    <text x="80" y="279" fill="url(#accentGradient)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-2.5">Bolivar</text>
+
+    <rect x="82" y="303" width="168" height="4" rx="2" fill="#7AE7C3" opacity="0.72"/>
+
+    <text x="82" y="350" fill="#B1CFC7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" letter-spacing="1.2">WEB DEVELOPER • DESIGNER • FREELANCER</text>
+
+    <g transform="translate(82 388)">
+      <rect width="124" height="34" rx="17" fill="#103833" stroke="#2A5D57"/>
+      <text x="62" y="22" fill="#EAFBF5" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Web Design</text>
+
+      <rect x="138" width="132" height="34" rx="17" fill="#103833" stroke="#2A5D57"/>
+      <text x="204" y="22" fill="#EAFBF5" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Brand Systems</text>
+
+      <rect x="284" width="112" height="34" rx="17" fill="#103833" stroke="#2A5D57"/>
+      <text x="340" y="22" fill="#EAFBF5" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Digital Work</text>
+    </g>
+  </g>
+</svg>
