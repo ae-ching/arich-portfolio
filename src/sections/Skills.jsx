@@ -4,7 +4,7 @@ const groups = [
   {
     title: 'Systems Analysis & Design',
     icon: '◈',
-    skills: ['Requirements Gathering', 'Systems Analysis', 'Business Process Analysis', 'System Design', 'SDLC', 'Technical Documentation'],
+    skills: ['Requirements Gathering', 'Systems Analysis', 'Business Process Analysis', 'System Design', 'Software Development Life Cycle', 'Technical Documentation'],
     span: 'normal',
   },
   {

@@ -52,7 +52,7 @@ function Contact() {
             <span className="footer-mark">A</span>
             <span>Arich Dalle Bolivar</span>
           </div>
-          <p className="footer-copy">© 2025 — Built with React & intention.</p>
+          <p className="footer-copy">© 2025 — Designed & developed by Arich.</p>
         </footer>
       </div>
     </section>
