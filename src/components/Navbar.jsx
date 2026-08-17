@@ -1,5 +1,6 @@
 import React from 'react'
 import { Menu, X, FileText } from 'lucide-react'
+import Resume from '../Resume.pdf'
 
 const links = [
   { id: 'home', label: 'Home' },
@@ -35,7 +36,7 @@ function Navbar({ scrolled, active, scrollTo }) {
 
           <div className="navbar-actions">
             <a
-              href="./assets/Resume.pdf"
+              href={Resume}
               target="_blank"
               rel="noopener noreferrer"
               className="resume-pill"
@@ -63,7 +64,7 @@ function Navbar({ scrolled, active, scrollTo }) {
             </button>
           ))}
           <a
-            href="./assets/Resume.pdf"
+            href={Resume}
             target="_blank"
             rel="noopener noreferrer"
             className="mobile-resume"
