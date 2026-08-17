@@ -35,7 +35,7 @@ function Navbar({ scrolled, active, scrollTo }) {
 
           <div className="navbar-actions">
             <a
-              href="/assets/Resume.pdf"
+              href="./assets/Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="resume-pill"
@@ -63,7 +63,7 @@ function Navbar({ scrolled, active, scrollTo }) {
             </button>
           ))}
           <a
-            href="/assets/Resume.pdf"
+            href="./assets/Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="mobile-resume"
